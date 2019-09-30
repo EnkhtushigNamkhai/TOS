@@ -3,14 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomePageComponent } from './homePage/homePage.component';
+import { AboutPageComponent } from './about-page/about-page.component';
+import { SummitPageComponent } from './summit-page/summit-page.component';
+import { InfoCardComponentComponent } from './homePage/info-card-component/info-card-component.component';
+import { FooterComponentComponent } from './homePage/footer-component/footer-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomePageComponent,
+    AboutPageComponent,
+    SummitPageComponent,
+    InfoCardComponentComponent,
+    FooterComponentComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

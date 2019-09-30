@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+.header {
+  	font-size: 70px;
+  }
+
+* {
+ color: #3C4043;
+}
+
+.subheader {
+font-size: 25px;
+color: #9AA0A6;
+}
+
+a,
+a:visited,
+a:hover {
+color: #1976d2;
+text-decoration: none;
+}
+
+a:hover {
+color: #125699;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 8px 0;
+}
+
+p {
+margin: 0;
+}
