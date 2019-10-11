@@ -1,15 +1,11 @@
 <div class="toolbar" role="banner">
   <!-- TODO: Maybe on Logo click, redirect to home page as well? -->
   <img
-    width="60"
-    alt="Angular Logo"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="
-  />
-    <div class="spacer"></div>
-  <a href="" class="tab">Home</a>
-  <a href="/about" class="tab">About</a>
-  <a href="/summit" class="tab">Summit</a>
+    width="90"
+    src="../assets/logo.png"/>
+  <div class="spacer"></div>
+  <a (click)="router.navigate(['/home']);" class="tab">Home</a>
+  <a (click)="router.navigate(['/about']);" class="tab">About</a>
+  <a (click)="router.navigate(['/summit']);" class="tab">Summit</a>
 </div>
-
-<img id="background" src="totspattern.svg">
 <router-outlet></router-outlet>
