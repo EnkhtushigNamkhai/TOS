@@ -25,6 +25,10 @@
   height: 100%;
 }
 
+::ng-deep .fullHeightViewport {
+  height: 100vh;
+}
+
 ::ng-deep .flexColumn {
   display: flex;
   flex-direction: column;
