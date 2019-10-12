@@ -7,7 +7,7 @@ import { HomePageComponent } from './homePage/homePage.component';
 import { AboutPageComponent } from './about-page/about-page.component';
 import { SummitPageComponent } from './summit-page/summit-page.component';
 import { InfoCardComponentComponent } from './homePage/info-card-component/info-card-component.component';
-import { FooterComponentComponent } from './homePage/footer-component/footer-component.component';
+import { FooterComponentComponent } from './footer-component/footer-component.component';
 
 @NgModule({
   declarations: [
